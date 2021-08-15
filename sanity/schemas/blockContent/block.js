@@ -30,6 +30,7 @@ const ExternalLinkRenderer = (props) => (
 export default {
   name: "blockContent",
   title: "Block Content",
+  // You can't currently use block as a standalone field outside of an array.
   type: "array",
   of: [
     {
@@ -93,6 +94,7 @@ export default {
             title: "External link",
             // this adds an icon in the portable text showing its an external link
             blockEditor: {
+              icon: FaExternalLinkAlt,
               render: ExternalLinkRenderer,
             },
             fields: [

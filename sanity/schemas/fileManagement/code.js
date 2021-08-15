@@ -1,5 +1,4 @@
-import React, { createRef } from "react";
-// import PropTypes from "prop-types";
+import React from "react";
 import Fieldset from "part:@sanity/components/fieldsets/default";
 import {
   setIfMissing,

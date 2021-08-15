@@ -37,6 +37,29 @@ export default function Home({ books }) {
   );
 }
 
+// some folks run this in useEffect without the getStaticProps as seen below:
+// useEffect(() => {
+//   sanityClient
+//     .fetch(
+//       `*[slug.current == $slug]{
+//         title,
+//         slug,
+//         mainImage{
+//           asset->{
+//             _id,
+//             url
+//            }
+//          },
+//        body,
+//       "name": author->name,
+//       "authorImage": author->image
+//      }`,
+//       { slug }
+//     )
+//     .then((data) => setPostData(data[0]))
+//     .catch(console.error);
+// }, [slug]);
+
 export const getStaticProps = async () => {
   const books = await client.fetch(query);
   return {
