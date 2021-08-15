@@ -1,0 +1,64 @@
+[{
+    "_key": "c27eaa97da98",
+    "_type": "block",
+    "children": [{
+            "_key": "3e6899c6ff38",
+            "_type": "span",
+            "marks": [],
+            "text": "the live, uncached API. "
+        },
+        {
+            "_key": "523cf10e1bd8",
+            "_type": "span",
+            "marks": ["a9097df4997d"],
+            "text": "This is the default"
+        },
+        {
+            "_key": "48249908a535",
+            "_type": "span",
+            "marks": [],
+            "text": " and will always give you the freshest data, but requests will be slower because they "
+        },
+        {
+            "_key": "9eaf3e608c5d",
+            "_type": "span",
+            "marks": ["98e1336c79de"],
+            "text": "need to reach"
+        },
+        {
+            "_key": "a1b83e4d5862",
+            "_type": "span",
+            "marks": [],
+            "text": " our backend on every request. "
+        },
+        {
+            "_key": "0fcc820c2678",
+            "_type": "span",
+            "marks": ["63b03412c770"],
+            "text": "Requests are"
+        },
+        {
+            "_key": "e295125d7d9a",
+            "_type": "span",
+            "marks": [],
+            "text": " also more costly because they will trigger more computation on our servers."
+        }
+    ],
+    "markDefs": [{
+            "_key": "a9097df4997d",
+            "_type": "internalLink",
+            "reference": {
+                "_ref": "a19ecdf4-1d2a-4879-bc55-f34e01d3f020",
+                "_type": "reference"
+            }
+        },
+        { "_key": "98e1336c79de", "_type": "internalLink" },
+        {
+            "_key": "63b03412c770",
+            "_type": "link",
+            "blank": true,
+            "href": "https://www.sei-mi.com"
+        }
+    ],
+    "style": "normal"
+}]
