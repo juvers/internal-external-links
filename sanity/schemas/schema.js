@@ -7,6 +7,7 @@ import Person from './sample/person';
 import Book from './sample/book';
 import Appointment from './contentTypes/basicTypes';
 import BlockContent from './blockContent/block';
+import File from './fileManagement/file';
 import { visa, passport } from './contentTypes/basicTypes';
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -20,6 +21,8 @@ export default createSchema({
         Appointment,
         Book,
         BlockContent,
-        visa, passport
+        visa,
+        passport,
+        File
     ]),
 })

@@ -10,6 +10,11 @@ export default {
             type: "string"
         },
         {
+            title: "File Data",
+            name: "filedata",
+            type: "map"
+        },
+        {
             title: "Year",
             name: "year",
             type: "number"
